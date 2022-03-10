@@ -12,5 +12,4 @@ fun main() {
 
     // 伴生物件
     val fakerByBuild = Faker.build()
-
 }

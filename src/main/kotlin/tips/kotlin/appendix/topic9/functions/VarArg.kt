@@ -1,4 +1,4 @@
-package tips.kotlin.appendix.topic9
+package tips.kotlin.appendix.topic9.functions
 
 fun gradlew(image: String, vararg args: String, init: (() -> Unit)? = null): String {
     if (init != null) init()

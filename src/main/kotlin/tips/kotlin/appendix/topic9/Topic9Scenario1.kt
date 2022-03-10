@@ -1,5 +1,7 @@
 package tips.kotlin.appendix.topic9
 
+import tips.kotlin.appendix.topic9.functions.gradlew
+
 fun main() {
     // 使用有 vararg 的 Function
     val result1 = gradlew("openjdk:17", "build", "--scan") {

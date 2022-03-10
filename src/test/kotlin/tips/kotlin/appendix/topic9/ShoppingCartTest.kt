@@ -15,7 +15,7 @@ class ShoppingCartTest : FunSpec({
         cart.add(apple)
         cart.add(banana)
 
-        cart.amount() shouldBe 2
+        cart.amount() shouldBe 2 // shouldBe 的實作就是用 infix
     }
 
 })

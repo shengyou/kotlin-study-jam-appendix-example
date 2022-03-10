@@ -1,4 +1,4 @@
-package tips.kotlin.appendix.topic4.classes
+package tips.kotlin.appendix.topic4
 
 sealed class MessageType
 
